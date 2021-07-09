@@ -1,0 +1,37 @@
+.snake-board {
+    width: 500px;
+    height: 500px;
+    /* background-color: brown; */
+    overflow: visible;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.game-wrapper {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+.board-cell {
+    width: 50px;
+    height: 50px;
+    background-color: purple;
+}
+
+.snake {
+    background-color: black;
+    
+}
+
+.score {
+    height: 25px;
+    width: 100px;
+    background-color: yellowgreen;
+    position: relative;
+    left: 193px; 
+}
+
+.food {
+    background-color: red;
+}
