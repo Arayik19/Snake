@@ -35,3 +35,22 @@
 .food {
     background-color: red;
 }
+
+.snake-head-up {
+    border-top: 3px;
+    border-radius: 15px;
+}
+
+.snake-head-down {
+
+}
+
+.snake-head-left {
+
+}
+
+.snake-head-right {
+    border-right: 3px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
